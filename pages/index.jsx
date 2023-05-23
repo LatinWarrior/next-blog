@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 
 function HomePage() {
     console.log(`[HomePage] render`);
@@ -9,9 +10,11 @@ function HomePage() {
                 <meta name='description' value='This is my blog' />
             </Head>
             <main>
-                <h1>My Blog 2001</h1>
+                <h1>My Blog 2004</h1>
                 <ul>
-                    <li>One</li>
+                    <li>
+                        <Link href='/posts/first-post'>First Post</Link>
+                    </li>
                     <li>Two</li>
                     <li>Three</li>
                 </ul>
