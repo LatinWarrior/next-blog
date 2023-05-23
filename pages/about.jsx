@@ -9,7 +9,7 @@ function AboutPage() {
                 <title>About - My Blog</title>
             </Head>
             <main>
-                <h1>About</h1>
+                <h1>About my Blog</h1>
             </main>
         </>
     );
